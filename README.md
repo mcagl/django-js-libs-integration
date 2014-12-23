@@ -3,7 +3,7 @@ django-js-libs-integration
 
 Django applications to ease javascript libraries integration in django projects
 
-As of now I included these javascript libraries (maybe some more, if I forget to update README.md :D ):
+As of now I included these javascript libraries (maybe some more, if I forget to update README.md):
 
 * jQuery (https://github.com/jquery/jquery)
 * Bootstrap (https://github.com/twbs/bootstrap)
@@ -21,3 +21,6 @@ The repository tree is organized in this way: first the library, and in every li
 Each subdirectory is a Django application named like "library-version", and you hopefully will be able to use it "as is" (suggestions, patches, pull requests are welcome!).
 
 I included the licenses for each library in its main directory.
+
+For now there is no code to check for application dependencies (for example, bootstrap needs jquery, bootstrap datetimepicker needs moment and bootstrap, and so it needs also jquery, and so on...),
+and I don't have too much ideas to solve this problem (yes, when you use few plugins you can keep track of dependencies by yourself).
