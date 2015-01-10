@@ -10,7 +10,7 @@ As of now I included these javascript libraries (maybe some more, if I forget to
 * Bootstrap DateTimePicker (https://github.com/Eonasdan/bootstrap-datetimepicker)
 * Bootstrap WYSIWYG (https://github.com/bootstrap-wysiwyg/bootstrap3-wysiwyg)
 * Moment (https://github.com/moment/moment/)
-* Select2 (https://github.com/ivaynberg/select2)
+* Select2 (https://github.com/select2/select2)
 * Datatables (https://github.com/DataTables/DataTables)
 * Flot (https://github.com/flot/flot)
 * jQplot (https://bitbucket.org/cleonello/jqplot/wiki/Home)
